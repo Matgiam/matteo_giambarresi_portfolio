@@ -3,17 +3,21 @@ import { Link } from "react-router";
 import "../styling/App.css";
 function Navbar(){
     return(
-                <header className="site-header">
+        <div className="site-wrapper">
+                <header className="site-container">
                     <div className="site-logo">
-                        <img src="../assets/logo.png" alt="" />
+                        <Link to='/'>
+                      
+                        <img src="./public/logo.png" alt="" />
+                          </Link>
                     </div>
                     <nav className="site-nav">
                         <ul className="nav-links">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">About</Link>
+                                <Link className="nav-link" to="/about">Works</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/projects">Projects</Link>
+                                <Link className="nav-link" to="/projects">About me</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact</Link>
@@ -21,6 +25,7 @@ function Navbar(){
                         </ul>
                     </nav>
                 </header>
+                     </div>
     )
 }
 

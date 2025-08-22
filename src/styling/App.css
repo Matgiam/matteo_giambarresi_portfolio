@@ -1,45 +1,65 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
-  font-family: "Inter", sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+	
 }
-
-.site-header {
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 30px 16px; 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 190px;
+  letter-spacing: 5px;
+  line-height: 0.9;
+}
+ul{
+   font-family: "Bebas Neue", sans-serif;
+}
+.site-wrapper {
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 30px 16px;
+}
+.site-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .site-logo img {
-  width: 180px;
-  height: 100px;
-  background-color: #000000;
+	width: 180px;
+	height: 100px;
+	background-color: #000000;
 }
 
 .site-nav {
-  display: flex;
+	display: flex;
 }
 
 .nav-links {
-  display: flex;
-  gap: 32px; 
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	display: flex;
+	gap: 32px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .nav-link {
-  font-size: 16px; 
-  color: #000000;
-  text-decoration: none;
-  transition: color 0.2s ease-in-out;
+	font-size: 40px;
+	color: #000000;
+	text-decoration: none;
+	transition: color 0.2s ease-in-out;
 }
 
 .nav-link:hover {
-  color: #828282;
+	color: #828282;
+}
+
+.site-first{
+  display:flex;
+}
+
+.site-first img{
+  width: 1010px;
+  height: 598px;
+  object-fit: cover; /* keeps aspect ratio, fills the box */
 }
