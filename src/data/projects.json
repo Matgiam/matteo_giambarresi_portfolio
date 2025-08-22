@@ -1,0 +1,11 @@
+[
+    {
+        "id": "stick-underground",
+        "title": "Stick Underground",
+        "category": "front-end",
+        "description":"Stick underground is a website where drummers from all levels can be informed on what type of drumsticks exist and what type of drumsticks they will need for their drumming style.",
+        "technologies": ["nodeJS","mongoDB"],
+        "link": "https://ehb-mct.github.io/web2-course-project-front-end-MatteoGiambarresi",
+        "image": "https://github.com/EHB-MCT/web2-course-project-front-end-MatteoGiambarresi/blob/main/docs/photos/LOGO.png"
+    },
+]

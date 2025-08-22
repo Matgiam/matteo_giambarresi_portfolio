@@ -1,12 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router';
+import "../styling/App.css";
 
 function Home(){
-    return(
-    <div>
-        <h1>Welcome to My Portfolio</h1>
-        <Link to= "/projects"><button>View projects </button></Link>
-    </div>
+    return(  
+    <nav className="navbar">
+        <ul className="links">
+            <li>
+                <Link to="/">Home</Link>
+            </li>
+            <li>
+                <Link to="/about">About</Link>
+            </li>
+            <li>
+                <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+                <Link to="/contact">Contact</Link>
+            </li>
+        </ul>
+        
+    </nav>
+    
 )}
 
 export default Home;
