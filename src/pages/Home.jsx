@@ -8,9 +8,12 @@ function Home() {
 		<div className="site-wrapper">
 			<div className="site-first">
 				<h1>
-					Matteo <br /> Giambarresi
+					Matteo <br /> Giamba<span>rresi</span>
 				</h1>
-				<img src="./public/test.png" alt="Shanks" />
+				<div className="images">
+					<img src="./public/Matteo_intro.png" alt="Shanks" />
+				</div>
+				<div className="rectangle"></div>
 			</div>
 		</div>
 	);

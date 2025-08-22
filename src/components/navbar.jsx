@@ -14,13 +14,13 @@ function Navbar(){
                     <nav className="site-nav">
                         <ul className="nav-links">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">Works</Link>
+                                <Link className="nav-link" to="/about">Projects</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/projects">About me</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/contact">Contact</Link>
+                            <li className="nav-item button">
+                                <Link className="nav-link white" to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </nav>

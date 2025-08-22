@@ -2,16 +2,17 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #f5f5f5;
-	
 }
-h1{
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 190px;
-  letter-spacing: 5px;
-  line-height: 0.9;
+h1 {
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 240px;
+	letter-spacing: 5px;
+	line-height: 0.9;
+	z-index: 500;
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
-ul{
-   font-family: "Bebas Neue", sans-serif;
+ul {
+	font-family: "Bebas Neue", sans-serif;
 }
 .site-wrapper {
 	width: 100%;
@@ -37,7 +38,7 @@ ul{
 
 .nav-links {
 	display: flex;
-	gap: 32px;
+	gap: 50px;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -54,12 +55,34 @@ ul{
 	color: #828282;
 }
 
-.site-first{
-  display:flex;
+.site-first {
+	position: relative;
+	display: flex;
 }
 
-.site-first img{
-  width: 1010px;
-  height: 598px;
-  object-fit: cover; /* keeps aspect ratio, fills the box */
+.site-first img {
+	width: 1010px;
+	height: 698px;
+	object-fit: cover;
+	margin-left: -464px;
+}
+
+.button {
+	background-color: #2c2b29;
+	padding: 10px 20px;
+	margin-top: -10px;
+}
+
+.white {
+	color: #ffffff;
+	z-index: 500;
+}
+
+span {
+	color: white;
+}
+
+.rectangle {
+    width: 15vw;  /* scale with viewport */
+    height: 20vh; /* scale with viewport */
 }
